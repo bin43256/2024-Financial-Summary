@@ -1,0 +1,38 @@
+services:
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: postgres_db
+      POSTGRES_USER: Bin
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - ./db-init/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U Bin -d postgres_db"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - elt_network
+
+  elt:
+    build:
+      context: ./elt_script
+      dockerfile: Dockerfile
+    command: ['python', 'load.py']
+    volumes:
+      - ./processed_data:/app/processed_data
+    networks:
+      - elt_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+networks:
+  elt_network:
+    driver: bridge
+
+
+    
