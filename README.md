@@ -28,7 +28,7 @@ Processes transactions data using Python scripts, stores the data in a PostgreSQ
   - Bank  
   - Payment Method  
   - Date  
-![Dimensional Model](assets/dimensional_model.png)
+![Dimensional Model](Assets/dimensional_model.png)
 *(image of the dimensional model)*  
 
 ### High-Level Process
@@ -43,7 +43,7 @@ Processes transactions data using Python scripts, stores the data in a PostgreSQ
 3. **Data Loading**:  
    - The processed `transaction.csv` file and dimension tables are loaded into the PostgreSQL database using the `load.py` script.  
 
-![Architecture](assets/high_level_process.png)
+![Architecture](Assets/architecture.png)
 *(image of the high-level process)*  
 
 ## Dashboard (Coming Soon)
