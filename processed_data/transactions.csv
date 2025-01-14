@@ -1,0 +1,538 @@
+id,date_id,bank_id,payment_method_id,description,category,amount,payment modality
+238,2,1,0,Wall Street,Other,2.0,Online
+383,4,4,0,WEIGHT CLUB,Gym,10.0,At the store
+407,4,4,0,Subway,Dining,7.78,Online
+348,5,4,0,KROGER,Grocery,14.05,At the store
+299,7,4,0,KROGER,Grocery,31.59,At the store
+446,7,4,0,KROGER,Grocery,4.04,At the store
+289,8,3,1,Oasis,Grocery,5.06,At the store
+237,9,1,0,COMCAST,Phone/Cables,59.99,Online
+435,10,4,0,KROGER,Grocery,5.52,At the store
+458,10,4,0,KROGER,Grocery,3.83,At the store
+295,11,4,0,GREAT WALL SUPERMARKET,Grocery,41.22,At the store
+236,11,1,0,Amazon,Merchandise,18.0,Online
+483,11,4,0,COSTCO,Dining,1.59,At the store
+290,12,3,1,Costco Gas,Gas,20.34,At the store
+235,12,1,0,Amazon,Merchandise,7.49,Online
+311,13,4,0,LIDL,Grocery,24.14,At the store
+378,13,4,0,SHAKE SHACK,Dining,10.59,Online
+368,14,4,0,CAVA,Dining,11.93,Online
+337,15,4,0,KROGER,Grocery,16.62,At the store
+239,16,2,0,COSTCO GAS,Gas,13.8,At the store
+485,17,4,0,LIDL,Grocery,1.07,At the store
+234,18,1,0,HULU,Subscription,1.99,Online
+319,18,4,0,GREAT WALL SUPERMARKET,Grocery,20.84,At the store
+333,18,4,0,KROGER,Grocery,17.08,At the store
+415,18,4,0,GIANT,Grocery,6.62,At the store
+233,20,1,0,Nike.com,Merchandise,90.53,Online
+365,21,4,0,ALDI,Grocery,12.17,At the store
+355,22,4,0,KROGER,Grocery,12.98,At the store
+232,22,1,0,VT GRAD ADMISSIONS,School,75.0,Online
+312,24,4,0,KROGER,Grocery,23.57,At the store
+428,25,4,0,KROGER,Grocery,6.04,At the store
+406,25,4,0,Subway,Dining,7.78,Online
+471,25,4,0,LIDL,Grocery,3.02,At the store
+399,26,4,0,LIDL,Grocery,8.57,At the store
+375,27,4,0,KROGER,Grocery,10.97,At the store
+353,28,4,0,ALDI,Grocery,13.43,At the store
+429,29,4,0,LIDL,Grocery,6.04,At the store
+230,29,1,0,LinkedIn,Other,39.99,Online
+464,29,4,0,KROGER,Grocery,3.25,At the store
+231,29,1,0,Nike.com,Merchandise,137.38,Online
+423,30,4,0,DOLLAR GENERAL,Merchandise,6.32,At the store
+229,30,1,0,Wall Street,Other,2.0,Online
+297,31,4,0,ALDI,Grocery,37.77,At the store
+291,31,3,1,Kroger Fuel,Gas,37.22,At the store
+228,31,1,0,PLANET FITNESS,Gym,5.83,Online
+292,32,3,1,FedEx,School,2.2,At the store
+431,32,4,0,GOOD FORTUNE,Grocery,6.01,At the store
+366,32,4,0,GIANT,Grocery,12.11,At the store
+465,33,4,0,DOLLAR GENERAL,Merchandise,3.16,At the store
+445,33,4,0,KROGER,Grocery,4.04,At the store
+385,34,4,0,McDonalds,Dining,9.88,Online
+313,34,4,0,ALDI,Grocery,23.53,At the store
+419,35,4,0,LIDL,Grocery,6.55,At the store
+320,36,4,0,KROGER,Grocery,20.78,At the store
+326,38,4,0,USPS,Shipping,19.09,At the store
+372,38,4,0,KROGER,Grocery,11.74,At the store
+405,38,4,0,Subway,Dining,7.78,Online
+227,40,1,0,COMCAST,Phone/Cables,59.99,Online
+294,41,4,0,ALDI,Grocery,46.34,At the store
+226,43,1,0,Amazon,Merchandise,7.49,Online
+347,43,4,0,KROGER,Grocery,14.08,At the store
+390,44,4,0,CHIPOTLE,Dining,9.46,Online
+323,45,4,0,ALDI,Grocery,20.53,At the store
+358,48,4,0,DoorDash,Dining,12.81,Online
+408,48,4,0,KROGER,Grocery,7.62,At the store
+307,48,4,0,ALDI,Grocery,26.69,At the store
+225,49,1,0,HULU,Subscription,1.99,Online
+396,50,4,0,ROOTS NATURAL KITCHEN,Dining,8.74,Online
+224,50,1,0,Nike.com,Merchandise,56.84,Online
+321,50,4,0,KROGER,Grocery,20.77,At the store
+241,51,2,0,PLANET FITNESS,Gym,10.0,Online
+240,51,2,0,Walmart,Grocery,16.27,At the store
+242,52,2,0,SHEETZ 0320 02/21 PURCHASE CHRISTIANSBUR VA,Gas,23.28,At the store
+222,52,1,0,DRI*EXAMITY LLC,School,300.0,Online
+444,52,4,0,STARBUCKS,Dining,4.06,Online
+479,52,4,0,SHEETZ,Grocery,2.01,At the store
+223,53,1,0,PANERA BREAD,Dining,9.95,Online
+309,53,4,0,GREAT WALL SUPERMARKET,Grocery,24.55,At the store
+437,53,4,0,McDonalds,Dining,5.18,Online
+340,56,4,0,ALDI,Grocery,15.75,At the store
+468,57,4,0,KROGER,Grocery,3.02,At the store
+243,57,2,0,Zelle payment to YI ZENG,Rent,32.15,Not Applicable
+221,58,1,0,Wall Street,Other,2.0,Online
+374,58,4,0,STARBUCKS,Dining,11.01,Online
+463,58,4,0,LIDL,Grocery,3.32,At the store
+397,59,4,0,ALDI,Grocery,8.7,At the store
+244,61,2,0,PLANET FITNESS,Gym,49.0,Online
+427,62,4,0,TARGET,Merchandise,6.05,At the store
+325,62,4,0,KROGER,Grocery,19.9,At the store
+356,64,4,0,KROGER,Grocery,12.96,At the store
+344,66,4,0,ALDI,Grocery,15.0,At the store
+220,67,1,0,UCI Graduate Application,School,150.0,Online
+442,68,4,0,KROGER,Grocery,4.53,At the store
+384,68,4,0,KROGER,Grocery,9.96,At the store
+219,69,1,0,COMCAST,Phone/Cables,59.99,Online
+363,70,4,0,ALDI,Grocery,12.21,At the store
+218,70,1,0,MINT MOBILE,Phone/Cables,53.95,Online
+245,71,2,0,DD DOORDASH WENDYS,Other,2.0,Online
+246,71,2,0,DD DOORDASH WENDYS,Other,3.0,Online
+247,71,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+336,72,4,0,KROGER,Grocery,16.64,At the store
+248,72,2,0,ROBINHOOD,Invest,600.0,Online
+360,72,4,0,ALDI,Grocery,12.65,At the store
+249,74,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+330,75,4,0,KROGER,Grocery,18.13,At the store
+354,76,4,0,KROGER,Grocery,13.27,At the store
+259,78,2,0,PLANET FITNESS,Gym,10.0,Online
+258,78,2,0,ROBINHOOD,Invest,800.0,Online
+257,78,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+256,78,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+426,78,4,0,KROGER,Grocery,6.05,At the store
+254,78,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+253,78,2,0,DD DOORDASH WENDYS,Other,2.0,Online
+217,78,1,0,HULU,Subscription,1.99,Online
+250,78,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+255,78,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+252,78,2,0,DD DOORDASH WENDYS,Other,2.0,Online
+251,78,2,0,DD DOORDASH WENDYS,Other,2.0,Online
+389,78,4,0,CHIPOTLE,Dining,9.46,Online
+335,79,4,0,ALDI,Grocery,16.7,At the store
+417,79,4,0,OASIS,Grocery,6.57,At the store
+342,82,4,0,ALDI,Grocery,15.17,At the store
+350,83,4,0,PANERA BREAD,Dining,13.67,Online
+316,84,4,0,KROGER,Grocery,22.83,At the store
+260,85,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+261,85,2,0,DD DOORDASH WENDYS,Other,2.5,Online
+293,85,4,0,MINT MOBILE,Phone/Cables,53.93,Online
+377,86,4,0,ALDI,Grocery,10.67,At the store
+216,86,1,0,Wall Street,Other,2.0,Online
+410,87,4,0,LIDL,Grocery,7.42,At the store
+315,87,4,0,ALDI,Grocery,23.06,At the store
+369,88,4,0,DoorDash,Dining,11.9,Online
+262,88,2,0,ROBINHOOD,Invest,500.0,Online
+339,89,4,0,KROGER,Grocery,15.85,At the store
+367,89,4,0,DoorDash,Dining,12.07,Online
+488,90,4,0,KROGER,Grocery,0.89,At the store
+300,91,4,0,KROGER,Grocery,30.94,At the store
+215,92,1,0,UBER EATS,Dining,17.72,Online
+341,94,4,0,KROGER,Grocery,15.31,At the store
+403,95,4,0,ALDI,Grocery,7.81,At the store
+263,95,2,0,ROBINHOOD,Invest,500.0,Online
+338,97,4,0,KROGER,Grocery,16.1,At the store
+470,99,4,0,LIDL,Grocery,3.02,At the store
+456,99,4,0,GREAT WALL SUPERMARKET,Grocery,3.84,At the store
+213,100,1,0,Amazon,Merchandise,5.19,Online
+416,100,4,0,GREAT WALL SUPERMARKET,Grocery,6.61,At the store
+214,100,1,0,COMCAST,Phone/Cables,59.99,Online
+346,100,4,0,KROGER,Grocery,14.17,At the store
+481,101,4,0,UBER EATS,Dining,1.6,Online
+345,101,4,0,UBER EATS,Dining,14.42,Online
+212,101,1,0,UBER EATS,Dining,25.41,Online
+296,102,4,0,KROGER,Grocery,39.14,At the store
+264,103,2,0,ROBINHOOD,Invest,500.0,Online
+364,103,4,0,LIDL,Grocery,12.2,At the store
+432,104,4,0,KROGER,Grocery,5.84,At the store
+209,104,1,0,CHICK-FIL-A,Dining,7.55,Online
+460,105,4,0,ALDI,Grocery,3.62,At the store
+210,105,1,0,Amazon,Merchandise,11.81,Online
+211,105,1,0,WEEE INC.,Grocery,27.29,Online
+265,107,2,0,ROBINHOOD,Invest,800.0,Online
+208,107,1,0,UBER EATS,Dining,12.58,Online
+438,108,4,0,FIREHOUSE SUBS,Dining,5.11,Online
+266,108,2,0,PLANET FITNESS,Gym,10.0,Online
+322,108,4,0,KROGER,Grocery,20.69,At the store
+207,109,1,0,HULU,Subscription,1.99,Online
+306,110,4,0,KROGER,Grocery,27.37,At the store
+267,110,2,0,DEPT EDUCATION,Student Loan,1034.64,Online
+362,111,4,0,KROGER,Grocery,12.35,At the store
+332,112,4,0,ALDI,Grocery,17.13,At the store
+206,112,1,0,Amazon,Merchandise,5.03,Online
+204,114,1,0,Amazon,Merchandise,105.29,Online
+205,114,1,0,Wall Street,Other,2.0,Online
+203,114,1,0,UBER EATS,Dining,12.51,Online
+301,115,4,0,KROGER,Grocery,30.75,At the store
+418,116,4,0,KROGER,Grocery,6.55,At the store
+202,116,1,0,Amazon,Merchandise,5.64,Online
+414,117,4,0,ALDI,Grocery,6.65,At the store
+268,117,2,0,DEPT EDUCATION,Student Loan,1000.0,Online
+269,117,2,0,ROBINHOOD,Invest,500.0,Online
+434,118,4,0,KROGER,Grocery,5.53,At the store
+474,119,4,0,KROGER,Grocery,2.51,At the store
+455,119,4,0,LIDL,Grocery,3.97,At the store
+430,120,4,0,LIDL,Grocery,6.03,At the store
+201,121,1,0,UBER EATS,Dining,11.09,Online
+304,121,4,0,KROGER,Grocery,28.75,At the store
+200,122,1,0,UBER EATS,Dining,10.69,Online
+476,123,4,0,UNIQUE,Merchandise,2.37,At the store
+199,123,1,0,UBER EATS,Dining,13.05,Online
+343,124,4,0,ALDI,Grocery,15.03,At the store
+198,124,1,0,TEMU.COM,Merchandise,21.0,Online
+357,125,4,0,KROGER,Grocery,12.94,At the store
+197,125,1,0,NETFLIX.COM,Subscription,6.99,Online
+271,127,2,0,Walmart,Grocery,7.53,At the store
+270,127,2,0,KROGER FUEL,Gas,32.38,At the store
+412,127,4,0,LIDL,Grocery,7.05,At the store
+388,127,4,0,CHIPOTLE,Dining,9.46,Online
+272,127,2,0,Zelle payment to YI ZENG,Rent,1317.58,Not Applicable
+361,129,4,0,Graduation Gift,School,12.64,At the store
+196,129,1,0,Amazon,Merchandise,84.4,Online
+195,130,1,0,COMCAST,Phone/Cables,59.99,Online
+194,130,1,0,99 RANCH,Grocery,6.05,Online
+273,130,2,0,PLANET FITNESS,Gym,40.0,Online
+193,131,1,0,LIDL,Grocery,12.32,Online
+192,131,1,0,GREAT WALL SUPERMARKET,Grocery,24.13,Online
+328,133,4,0,ALDI,Grocery,18.71,At the store
+274,135,2,0,student loan,Student Loan,1000.0,Online
+475,135,4,0,LIDL,Grocery,2.51,At the store
+382,136,4,0,KROGER,Grocery,10.08,At the store
+478,136,4,0,LIDL,Grocery,2.01,At the store
+190,138,1,0,ALDI,Grocery,10.72,Online
+275,138,2,0,PLANET FITNESS,Gym,10.0,Online
+191,139,1,0,HULU,Subscription,1.99,Online
+189,140,1,0,PROGRESSIVE,Insurance,226.0,Online
+310,141,4,0,KROGER,Grocery,24.46,At the store
+188,141,1,0,Amazon,Merchandise,65.4,Online
+187,142,1,0,Wall Street,Other,2.0,Online
+185,143,1,0,ALDI,Grocery,4.42,Online
+186,143,1,0,KROGER,Grocery,3.54,Online
+184,144,1,0,ALDI,Grocery,15.49,Online
+401,144,4,0,GIANT,Grocery,8.12,At the store
+183,146,1,0,KROGER,Grocery,5.94,Online
+182,148,1,0,KROGER,Grocery,13.5,Online
+379,150,4,0,KROGER,Grocery,10.52,At the store
+180,151,1,0,KROGER,Grocery,13.78,Online
+181,151,1,0,APPLE,Phone/Cables,0.99,Online
+436,154,4,0,KROGER,Grocery,5.4,At the store
+179,155,1,0,KROGER,Grocery,31.61,Online
+439,155,4,0,LIDL,Grocery,5.03,At the store
+177,156,1,0,KROGER,Grocery,6.96,Online
+178,156,1,0,NETFLIX.COM,Subscription,6.99,Online
+175,157,1,0,ALDI,Grocery,12.84,Online
+176,158,1,0,KROGER,Grocery,15.46,Online
+454,160,4,0,APPLE.COM/BILL,Other,3.99,Online
+171,160,1,0,ALDI,Grocery,5.94,Online
+174,160,1,0,KROGER,Grocery,6.27,Online
+172,161,1,0,DOORDASH,Dining,46.22,Online
+173,161,1,0,COMCAST,Phone/Cables,59.99,Online
+411,162,4,0,FIREHOUSE SUBS,Dining,7.23,Online
+409,163,4,0,LIDL,Grocery,7.5,At the store
+170,163,1,0,KROGER,Grocery,17.04,Online
+537,164,5,0,COSTCO,Grocery,63.95,At the store
+536,165,5,0,ALDI,Grocery,13.0,At the store
+169,165,1,0,KROGER,Grocery,13.24,Online
+167,166,1,0,ALDI,Grocery,11.68,Online
+168,167,1,0,KROGER,Grocery,25.55,Online
+453,169,4,0,APPLE.COM/BILL,Other,3.99,Online
+166,169,1,0,KROGER,Grocery,6.51,Online
+164,170,1,0,HULU,Subscription,1.99,Online
+163,170,1,0,KROGER,Grocery,5.64,Online
+165,170,1,0,Wall Street,Other,2.0,Online
+162,171,1,0,CHIPOTLE,Dining,9.46,Online
+452,171,4,0,APPLE.COM/BILL,Other,3.99,Online
+161,172,1,0,MINT MOBILE,Phone/Cables,113.84,Online
+159,172,1,0,ALDI,Grocery,9.88,Online
+535,172,5,0,COSTCO,Grocery,74.47,At the store
+160,173,1,0,KROGER,Grocery,21.98,Online
+158,174,1,0,FIREHOUSE SUBS,Dining,1.73,Online
+534,175,5,0,COSTCO,Grocery,58.39,At the store
+402,175,4,0,ALDI,Grocery,7.87,At the store
+381,176,4,0,KROGER,Grocery,10.14,At the store
+480,176,4,0,KROGER,Grocery,1.75,At the store
+451,177,4,0,APPLE.COM/BILL,Other,3.99,Online
+487,178,4,0,APPLE.COM/BILL,Other,0.99,Online
+450,178,4,0,APPLE.COM/BILL,Other,3.99,Online
+324,179,4,0,LIDL,Grocery,20.07,At the store
+386,180,4,0,GOOD FORTUNE,Grocery,9.67,At the store
+334,180,4,0,KROGER,Grocery,17.06,At the store
+331,180,4,0,LIDL,Grocery,17.26,At the store
+394,181,4,0,PANDA EXPRESS,Dining,8.81,Online
+457,181,4,0,KROGER,Grocery,3.83,At the store
+425,182,4,0,LIDL,Grocery,6.06,At the store
+380,182,4,0,LIDL,Grocery,10.41,At the store
+157,182,1,0,MINT MOBILE,Phone/Cables,96.18,Online
+308,183,4,0,KROGER,Grocery,26.43,At the store
+466,184,4,0,LIDL,Grocery,3.03,At the store
+156,185,1,0,KROGER,Grocery,5.43,Online
+391,185,4,0,GIANT,Grocery,9.43,At the store
+152,185,1,0,ALDI,Grocery,10.13,Online
+486,185,4,0,APPLE.COM/BILL,Other,0.99,Online
+533,185,5,0,DD/BR,Gas,10.24,At the store
+421,185,4,0,GOOD FORTUNE,Grocery,6.45,At the store
+371,185,4,0,LIDL,Grocery,11.85,At the store
+155,186,1,0,Amazon,Merchandise,50.21,Online
+153,186,1,0,KROGER,Grocery,1.69,Online
+154,186,1,0,NETFLIX.COM,Subscription,6.99,Online
+440,187,4,0,LIDL,Grocery,4.95,At the store
+151,188,1,0,DOORDASH,Dining,15.46,Online
+150,188,1,0,KROGER,Grocery,6.39,Online
+149,189,1,0,KROGER,Grocery,6.7,Online
+148,191,1,0,COMCAST,Phone/Cables,59.99,Online
+277,191,2,0,Acorns,Invest,5.0,Online
+276,191,2,0,Acorns,Invest,5.0,Online
+422,192,4,0,LIDL,Grocery,6.37,At the store
+145,193,1,0,KROGER,Grocery,13.48,Online
+146,193,1,0,UBER EATS,Dining,10.51,Online
+147,193,1,0,MINT MOBILE,Phone/Cables,186.18,Online
+424,193,4,0,LIDL,Grocery,6.15,At the store
+144,194,1,0,Amazon,Merchandise,127.16,Online
+303,194,4,0,LIDL,Grocery,29.51,At the store
+143,194,1,0,KROGER,Grocery,18.76,Online
+142,194,1,0,ALDI,Grocery,6.04,Online
+141,196,1,0,KROGER,Grocery,1.98,Online
+140,197,1,0,WEIGHT Club,Gym,40.0,Online
+139,197,1,0,KROGER,Grocery,6.2,Online
+400,197,4,0,PANDA EXPRESS,Dining,8.26,Online
+138,198,1,0,Wall Street,Other,2.0,Online
+137,198,1,0,KROGER,Grocery,10.37,Online
+278,198,2,0,Acorns,Invest,5.0,Online
+136,199,1,0,CHIPOTLE,Dining,9.46,Online
+531,200,5,0,GIANT,Grocery,2.02,At the store
+473,200,4,0,STARBUCKS,Dining,2.54,Online
+532,200,5,0,COSTCO,Grocery,170.35,At the store
+134,200,1,0,ALDI,Grocery,19.33,Online
+489,200,4,0,BESTWAY,Grocery,0.81,At the store
+135,200,1,0,HULU,Subscription,1.99,Online
+472,201,4,0,DOLLARTREE,Merchandise,2.65,At the store
+351,201,4,0,LIDL,Grocery,13.64,At the store
+398,201,4,0,GIANT,Grocery,8.6,At the store
+298,202,4,0,TIKTOK,Grocery,33.32,At the store
+133,202,1,0,PANDA EXPRESS,Dining,7.71,Online
+459,203,4,0,LIDL,Grocery,3.78,At the store
+305,203,4,0,KROGER,Grocery,27.66,At the store
+279,204,2,0,Acorns,Invest,3.0,Online
+132,205,1,0,UBER EATS,Dining,11.97,Online
+131,205,1,0,KROGER,Grocery,8.88,Online
+280,205,2,0,Acorns,Invest,5.0,Online
+370,206,4,0,CHIPOTLE,Dining,11.85,Online
+413,206,4,0,PANERA BREAD,Dining,6.67,Online
+530,208,5,0,ALDI,Grocery,24.36,At the store
+449,208,4,0,ALDI,Grocery,3.99,At the store
+352,208,4,0,GOOD FORTUNE,Grocery,13.54,At the store
+314,209,4,0,KROGER,Grocery,23.41,At the store
+302,211,4,0,KROGER,Grocery,30.18,At the store
+373,212,4,0,PANERA BREAD,Dining,11.44,Online
+130,213,1,0,APPLE,Phone/Cables,1.79,Online
+469,213,4,0,LIDL,Grocery,3.02,At the store
+443,213,4,0,KROGER,Grocery,4.32,At the store
+129,214,1,0,UBER EATS,Dining,27.15,Online
+128,214,1,0,UBER EATS,Dining,2.0,Online
+318,214,4,0,KROGER,Grocery,22.35,At the store
+127,216,1,0,UBER EATS,Dining,25.66,Online
+477,216,4,0,LIDL,Grocery,2.02,At the store
+126,217,1,0,NETFLIX.COM,Subscription,6.99,Online
+462,217,4,0,KROGER,Grocery,3.37,At the store
+329,217,4,0,KROGER,Grocery,18.45,At the store
+393,218,4,0,LIDL,Grocery,8.94,At the store
+349,218,4,0,KROGER,Grocery,13.79,At the store
+359,219,4,0,KROGER,Grocery,12.67,At the store
+448,219,4,0,LIDL,Grocery,4.02,At the store
+317,220,4,0,KROGER,Grocery,22.49,At the store
+125,222,1,0,COMCAST,Phone/Cables,59.99,Online
+124,222,1,0,KROGER,Grocery,7.44,Online
+123,222,1,0,CHIPOTLE,Dining,9.46,Online
+122,223,1,0,KROGER,Grocery,4.71,Online
+387,223,4,0,CHIPOTLE,Dining,9.46,Online
+121,224,1,0,KROGER,Grocery,5.78,Online
+120,224,1,0,CHIPOTLE,Dining,9.46,Online
+281,225,2,0,DEPT EDUCATION,Student Loan,188.72,Online
+119,225,1,0,KROGER,Grocery,17.37,Online
+118,226,1,0,Wall Street,Other,38.99,Online
+117,227,1,0,PANERA BREAD,Dining,6.67,Online
+116,227,1,0,KROGER,Grocery,12.06,Online
+115,227,1,0,CHIPOTLE,Dining,11.41,Online
+114,228,1,0,WEIGHT Club,Gym,40.0,Online
+433,228,4,0,LIDL,Grocery,5.84,At the store
+113,229,1,0,KROGER,Grocery,7.17,Online
+529,229,5,0,GIANT,Grocery,5.13,At the store
+461,229,4,0,BESTWAY,Grocery,3.43,At the store
+404,231,4,0,Subway,Dining,7.78,Online
+112,232,1,0,UBER EATS,Dining,9.99,Online
+528,235,5,0,COSTCO,Grocery,196.25,At the store
+491,239,4,0,APPLE.COM/BILL,Other,0.29,Online
+111,241,1,0,APPLE,Phone/Cables,0.99,Online
+110,244,1,0,ROOTS NATURAL KITCHEN,Dining,13.74,Online
+108,245,1,0,ROOTS NATURAL KITCHEN,Dining,14.3,Online
+109,246,1,0,UBER EATS,Dining,8.78,Online
+484,247,4,0,LIDL,Grocery,1.52,At the store
+395,248,4,0,H MART,Grocery,8.75,At the store
+106,250,1,0,ROOTS NATURAL KITCHEN,Dining,8.74,Online
+107,250,1,0,DOORDASH,Dining,15.17,Online
+420,251,4,0,LIDL,Grocery,6.46,At the store
+104,252,1,0,ROOTS NATURAL KITCHEN,Dining,14.3,Online
+105,253,1,0,COMCAST,Phone/Cables,59.99,Online
+526,254,5,0,KAISER,Other,10.0,At the store
+525,254,5,0,COSTCO Ticket,Other,11.0,At the store
+527,254,5,0,COSTCO,Grocery,136.85,At the store
+392,255,4,0,LIDL,Grocery,9.09,At the store
+524,255,5,0,GIANT,Grocery,11.39,At the store
+447,256,4,0,LIDL,Grocery,4.03,At the store
+376,257,4,0,LIDL,Grocery,10.69,At the store
+523,258,5,0,HOME DEPOT,Merchandise,12.99,At the store
+441,258,4,0,LIDL,Grocery,4.63,At the store
+102,259,1,0,WEIGHT Club,Gym,40.0,Online
+103,259,1,0,UBER EATS,Dining,17.01,Online
+282,260,2,0,Zelle payment to YI ZENG,Rent,1755.1,Not Applicable
+101,261,1,0,UBER EATS,Dining,18.98,Online
+490,263,4,0,APPLE.COM/BILL,Other,0.29,Online
+100,263,1,0,UBER EATS,Dining,17.01,Online
+283,263,2,0,DEPT EDUCATION,Student Loan,377.44,Online
+522,263,5,0,COSTCO,Grocery,78.59,At the store
+98,264,1,0,KROGER,Grocery,10.99,Online
+99,264,1,0,UBER EATS,Dining,17.01,Online
+97,265,1,0,DOORDASH,Dining,19.12,Online
+96,266,1,0,UBER EATS,Dining,20.18,Online
+482,267,4,0,LIDL,Grocery,1.6,At the store
+95,267,1,0,KROGER,Grocery,18.97,Online
+467,270,4,0,GIANT,Grocery,3.02,At the store
+94,270,1,0,KROGER,Grocery,26.95,Online
+93,272,1,0,APPLE,Phone/Cables,0.99,At the store
+92,272,1,0,KROGER,Grocery,32.41,Online
+91,272,1,0,KROGER,Grocery,4.81,Online
+90,274,1,0,KROGER,Grocery,12.01,Online
+89,275,1,0,KROGER,Grocery,16.14,Online
+88,275,1,0,KROGER,Grocery,31.37,Online
+327,277,4,0,GREAT WALL SUPERMARKET,Grocery,18.96,At the store
+87,277,1,0,KROGER,Grocery,9.04,Online
+521,277,5,0,COSTCO,Grocery,134.37,At the store
+285,278,2,0,security deposit for rent,Rent,700.0,Not Applicable
+286,278,2,0,rent for october,Rent,700.0,Not Applicable
+86,279,1,0,KROGER,Grocery,20.39,Online
+85,281,1,0,KROGER,Grocery,2.83,Online
+84,282,1,0,UBER EATS,Dining,17.77,Online
+83,283,1,0,LIDL,Grocery,3.98,Online
+82,284,1,0,LIDL,Grocery,44.39,Online
+519,284,5,0,COSTCO,Grocery,2.19,At the store
+520,284,5,0,COSTCO,Grocery,74.24,At the store
+81,285,1,0,LA FITNESS,Gym,79.98,online
+80,286,1,0,DOLLARTREE,Merchandise,1.33,At the store
+79,288,1,0,TARGET,Merchandise,2.11,At the store
+78,288,1,0,7610 CRUZ CROWN,Gas,31.26,Online
+518,291,5,0,COSTCO,Grocery,41.76,At the store
+517,291,5,0,COSTCO Ticket,Other,3.0,At the store
+76,292,1,0,HARRIS TEETER,Grocery,0.74,Online
+77,292,1,0,LIDL,Grocery,6.3,Online
+73,293,1,0,CAR DOCTORS,Auto,771.63,At the store
+74,293,1,0,CAR DOCTORS,Auto,56.84,At the store
+75,293,1,0,LIDL,Grocery,9.39,Online
+71,294,1,0,ALDI,Grocery,4.52,Online
+72,294,1,0,UBER EATS,Dining,14.6,Online
+70,295,1,0,COURSERA,Other,49.0,Online
+69,296,1,0,HARRIS TEETER,Grocery,3.68,Online
+68,297,1,0,LIDL,Grocery,12.5,Online
+516,298,5,0,COSTCO,Grocery,58.44,At the store
+515,299,5,0,CRUZ CROWN,Gas,30.27,At the store
+67,299,1,0,LA FITNESS,Gym,59.0,Online
+66,300,1,0,LIDL,Grocery,7.16,Online
+65,301,1,0,CVS,Merchandise,9.32,At the store
+63,302,1,0,LIDL,Grocery,5.51,Online
+64,302,1,0,APPLE,Phone/Cables,0.99,Online
+514,303,5,0,HOME DEPOT,Merchandise,231.08,At the store
+62,304,1,0,SHENANDOAH NATL PARK,Other,30.0,At the store
+61,304,1,0,GOOD FORTUNE,Grocery,18.32,Online
+513,304,5,0,BP,Gas,9.28,At the store
+511,305,5,0,SUNOCO,Gas,24.29,At the store
+512,305,5,0,UMI Buffet,Dining,60.48,At the store
+60,306,1,0,ALDI,Grocery,7.43,Online
+287,306,2,0,rent for november,Rent,700.0,Not Applicable
+59,307,1,0,GREAT WALL SUPERMARKET,Grocery,9.35,Online
+58,308,1,0,GREAT WALL SUPERMARKET,Grocery,28.6,Online
+57,309,1,0,LIDL,Grocery,9.41,Online
+56,312,1,0,LIDL,Grocery,4.84,Online
+510,312,5,0,COSTCO,Grocery,61.82,At the store
+55,312,1,0,Costco Ticket,Other,11.0,At the store
+54,313,1,0,LIDL,Grocery,1.09,Online
+53,313,1,0,H MART,Grocery,0.28,Online
+509,315,5,0,CRUZ CROWN,Gas,28.55,At the store
+52,316,1,0,LA FITNESS,Gym,39.99,Online
+51,316,1,0,LIDL,Grocery,1.0,Online
+50,316,1,0,ALDI,Grocery,4.07,Online
+49,317,1,0,UNIQUE,Merchandise,9.85,At the store
+284,318,2,0,DEPT EDUCATION,Student Loan,188.72,Online
+48,319,1,0,LIDL,Grocery,24.84,Online
+47,320,1,0,99 RANCH,Grocery,14.34,Online
+45,320,1,0,TOLL PAYMENT,Other,7.2,Online
+508,320,5,0,COSTCO,Grocery,87.61,At the store
+46,320,1,0,BP,Gas,28.44,Online
+44,321,1,0,UNIQUE,Merchandise,1.8,At the store
+43,322,1,0,GREAT WALL SUPERMARKET,Grocery,5.26,Online
+507,322,5,0,UNIQUE,Merchandise,2.12,At the store
+40,323,1,0,GREAT WALL SUPERMARKET,Grocery,37.49,Online
+41,323,1,0,PIRATE SHIP * POSTAGE,Shipping,10.96,Online
+42,323,1,0,FEDEX,Shipping,0.75,At the store
+38,324,1,0,LIDL,Grocery,1.84,Online
+36,324,1,0,BP,Gas,30.39,Online
+39,324,1,0,LIDL,Grocery,9.78,Online
+34,325,1,0,GREAT WALL SUPERMARKET,Grocery,13.56,Online
+37,325,1,0,PROGRESSIVE,Insurance,251.0,Online
+35,325,1,0,H MART,Grocery,2.77,Online
+33,327,1,0,FEDEX,Shipping,0.22,At the store
+31,327,1,0,GREAT WALL SUPERMARKET,Grocery,44.9,Online
+32,327,1,0,PIRATE SHIP * POSTAGE,Shipping,10.96,Online
+30,328,1,0,LIDL,Grocery,1.84,Online
+29,328,1,0,LIDL,Grocery,20.81,Online
+27,328,1,0,AMERICAN MAJESTIC EAGLE,Gas,28.69,Online
+28,329,1,0,Too Good To Go Inc.,Dining,5.29,Online
+26,330,1,0,TARGET,Merchandise,10.07,At the store
+25,330,1,0,7610 CRUZ CROWN,Gas,31.44,Online
+22,331,1,0,ALDI,Grocery,12.01,Online
+24,331,1,0,GREAT WALL SUPERMARKET,Grocery,21.73,Online
+21,332,1,0,LIDL,Grocery,8.37,Online
+23,332,1,0,TARGET,Merchandise,3.71,At the store
+506,332,5,0,COSTCO,Grocery,60.74,At the store
+505,332,5,0,COSTCO GAS,Gas,13.18,At the store
+504,332,5,0,COSTCO,Grocery,3.7,At the store
+20,333,1,0,GIANT,Grocery,4.53,Online
+19,334,1,0,APPLE,Phone/Cables,0.99,Online
+18,334,1,0,ALDI,Grocery,3.52,Online
+288,336,2,0,rent for december,Rent,700.0,Not Applicable
+503,337,5,0,EXXON,Gas,33.83,At the store
+502,338,5,0,7-ELEVEN,Grocery,1.35,At the store
+501,339,5,0,COSTCO,Grocery,121.22,At the store
+500,341,5,0,AMERICAN MAJESTIC EAGLE,Gas,28.79,At the store
+17,346,1,0,LA FITNESS,Gym,39.99,Online
+499,347,5,0,COSTCO,Grocery,72.61,At the store
+498,347,5,0,COSTCO,Grocery,2.19,At the store
+497,348,5,0,AMERICAN MAJESTIC EAGLE,Gas,29.78,At the store
+16,351,1,0,LUBE - IT,Auto,20.0,At the store
+496,351,5,0,AMERICAN MAJESTIC EAGLE,Gas,30.42,At the store
+495,352,5,0,EXXON,Gas,25.0,At the store
+15,352,1,0,LIDL,Grocery,3.61,Online
+494,354,5,0,7-ELEVEN,Grocery,3.03,At the store
+13,354,1,0,ALDI,Grocery,7.72,Online
+14,355,1,0,LIDL,Grocery,6.25,Online
+493,356,5,0,AMERICAN MAJESTIC EAGLE,Gas,33.65,At the store
+12,356,1,0,LIDL,Grocery,20.2,Online
+11,358,1,0,Amazon,Merchandise,12.19,Online
+10,358,1,0,Amazon,Merchandise,12.19,Online
+9,359,1,0,Gas Fuel,Gas,32.06,Online
+8,360,1,0,GREAT WALL SUPERMARKET,Grocery,5.88,Online
+492,361,5,0,COSTCO,Grocery,459.17,At the store
+7,361,1,0,H MART,Grocery,6.6,Online
+6,363,1,0,APPLE,Phone/Cables,0.99,Online
+5,363,1,0,LIDL,Grocery,4.35,Online
+4,364,1,0,SUNOCO,Gas,38.69,Online
+2,364,1,0,ALDI,Grocery,16.74,Online
+3,365,1,0,FEDEX,Shipping,0.22,At the store
+1,365,1,0,PIRATE SHIP * POSTAGE,Shipping,9.36,Online

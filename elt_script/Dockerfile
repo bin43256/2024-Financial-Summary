@@ -12,4 +12,4 @@ COPY load.py .
 COPY extract_transform.py .
 COPY data/ ./data/
 
-CMD ["python", "unit_test2.py"]
+CMD ["python", "load.py"]

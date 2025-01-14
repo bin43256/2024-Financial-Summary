@@ -1,80 +1,51 @@
-﻿Date,Description,Amount,Category
-1/16/2024,DoorDash Delivery,41.59,Pay Check
-1/17/2024,Uber Delivery,99.04,Pay Check
-2/7/2024,Uber Delivery,147.5,Pay Check
-3/7/2024,DoorDash Lab,1029.87,Pay Check
-3/14/2024,DoorDash Lab,824.81,Pay Check
-3/21/2024,DoorDash Lab,783.03,Pay Check
-3/26/2024,DoorDash Delivery,26.5,Pay Check
-3/28/2024,DoorDash Lab,803.92,Pay Check
-4/2/2024,DoorDash Delivery,28.98,Pay Check
-4/4/2024,DoorDash Lab,804.47,Pay Check
-4/9/2024,DoorDash Delivery,81.54,Pay Check
-4/9/2024,Uber Delivery,70.62,Pay Check
-4/11/2024,DoorDash Lab,804.47,Pay Check
-4/18/2024,DoorDash Lab,804.46,Pay Check
-4/25/2024,DoorDash Lab,804.47,Pay Check
-5/2/2024,DoorDash Lab,888.02,Pay Check
-5/2/2024,DoorDash Lab,42.17,Pay Check
-5/9/2024,DoorDash Lab,888.02,Pay Check
-5/16/2024,DoorDash Lab,385.28,Pay Check
-5/23/2024,DoorDash Lab,888.02,Pay Check
-5/23/2024,Uber Delivery,187.92,Pay Check
-5/30/2024,DoorDash Lab,888.02,Pay Check
-6/6/2024,DoorDash Lab,888.02,Pay Check
-6/13/2024,DoorDash Lab,888.02,Pay Check
-6/20/2024,DoorDash Lab,888.02,Pay Check
-6/25/2024,Uber Delivery,80.49,Pay Check
-6/25/2024,DoorDash Delivery,134.07,Pay Check
-6/27/2024,DoorDash Lab,888.02,Pay Check
-7/2/2024,Uber Delivery,208.99,Pay Check
-7/2/2024,DoorDash Delivery,250,Pay Check
-7/3/2024,DoorDash Lab,888.02,Pay Check
-7/9/2024,Uber Delivery,196.68,Pay Check
-7/9/2024,DoorDash Delivery,225.02,Pay Check
-7/11/2024,DoorDash Lab,888.02,Pay Check
-7/16/2024,Uber Delivery,157.03,Pay Check
-7/18/2024,DoorDash Lab,888.02,Pay Check
-7/23/2024,Uber Delivery,103.35,Pay Check
-7/25/2024,DoorDash Lab,888.02,Pay Check
-7/30/2024,Uber Delivery,196.08,Pay Check
-7/31/2024,Uber Delivery,9.96,Pay Check
-8/1/2024,DoorDash Lab,888.02,Pay Check
-8/6/2024,Uber Delivery,169.06,Pay Check
-8/8/2024,DoorDash Lab,888.02,Pay Check
-8/13/2024,Uber Delivery,187.56,Pay Check
-8/15/2024,DoorDash Lab,888.02,Pay Check
-8/20/2024,Uber Delivery,137.53,Pay Check
-8/22/2024,DoorDash Lab,888.02,Pay Check
-8/27/2024,Uber Delivery,207.84,Pay Check
-8/27/2024,Uber Delivery,34.2,Pay Check
-8/29/2024,DoorDash Lab,888.02,Pay Check
-9/4/2024,Uber Delivery,310.73,Pay Check
-9/5/2024,DoorDash Lab,888.02,Pay Check
-9/10/2024,Uber Delivery,404.65,Pay Check
-9/12/2024,DoorDash Lab,903.68,Pay Check
-9/12/2024,DoorDash Lab,95.12,Pay Check
-9/17/2024,Uber Delivery,89.76,Pay Check
-9/19/2024,DoorDash Lab,91.03,Pay Check
-9/19/2024,DoorDash Lab,911.53,Pay Check
-9/24/2024,Uber Delivery,554.91,Pay Check
-9/26/2024,DoorDash Lab,888.02,Pay Check
-9/26/2024,DoorDash Lab,84.99,Pay Check
-10/1/2024,Uber Delivery,39.34,Pay Check
-10/3/2024,DoorDash Lab,93.5,Pay Check
-11/13/2024,DoorDash Delivery,121.29,Pay Check
-11/19/2024,Uber Delivery,276.64,Pay Check
-11/19/2024,DoorDash Delivery,186.15,Pay Check
-11/26/2024,Uber Delivery,522.08,Pay Check
-11/26/2024,DoorDash Delivery,386.87,Pay Check
-12/3/2024,Uber Delivery,388.44,Pay Check
-12/3/2024,DoorDash Delivery,364.72,Pay Check
-12/10/2024,Uber Delivery,587.01,Pay Check
-12/10/2024,DoorDash Delivery,410.21,Pay Check
-12/17/2024,Uber Delivery,684.03,Pay Check
-12/17/2024,DoorDash Delivery,362.18,Pay Check
-12/24/2024,DoorDash Delivery,493.99,Pay Check
-12/24/2024,DoorDash Delivery,327.49,Pay Check
-12/31/2024,Uber Delivery,504.25,Pay Check
-12/31/2024,DoorDash Delivery,378.95,Pay Check
-11/29/2024,Starbucks Paycheck,123.25,Pay Check
+Date,Description,Amount,Category,Payment Modality
+1/16/2024,COSTCO GAS,13.8,Gas,At the store
+2/20/2024,Walmart,16.27,Grocery,At the store
+2/20/2024,PLANET FITNESS,10,Gym,Online
+2/21/2024,SHEETZ 0320 02/21 PURCHASE CHRISTIANSBUR VA,23.28,Gas,At the store
+2/26/2024,Zelle payment to YI ZENG,32.15,Rent,Not Applicable
+3/1/2024,PLANET FITNESS,49,Gym,Online
+3/11/2024,DD DOORDASH WENDYS,2,Other,Online
+3/11/2024,DD DOORDASH WENDYS,3,Other,Online
+3/11/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/12/2024,ROBINHOOD,600,Invest,Online
+3/14/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/18/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/18/2024,ROBINHOOD,800,Invest,Online
+3/18/2024,PLANET FITNESS,10,Gym,Online
+3/25/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/25/2024,DD DOORDASH WENDYS,2.5,Other,Online
+3/28/2024,ROBINHOOD,500,Invest,Online
+4/4/2024,ROBINHOOD,500,Invest,Online
+4/12/2024,ROBINHOOD,500,Invest,Online
+4/16/2024,ROBINHOOD,800,Invest,Online
+4/17/2024,PLANET FITNESS,10,Gym,Online
+4/19/2024,DEPT EDUCATION,1034.64,Student Loan,Online
+4/26/2024,DEPT EDUCATION,1000,Student Loan,Online
+4/26/2024,ROBINHOOD,500,Invest,Online
+5/6/2024,KROGER FUEL,32.38,Gas,At the store
+5/6/2024,Walmart,7.53,Grocery,At the store
+5/6/2024,Zelle payment to YI ZENG,1317.58,Rent,Not Applicable
+5/9/2024,PLANET FITNESS,40,Gym,Online
+5/14/2024,student loan,1000,Student Loan,Online
+5/17/2024,PLANET FITNESS,10,Gym,Online
+7/9/2024,Acorns,5,Invest,Online
+7/9/2024,Acorns,5,Invest,Online
+7/16/2024,Acorns,5,Invest,Online
+7/22/2024,Acorns,3,Invest,Online
+7/23/2024,Acorns,5,Invest,Online
+8/12/2024,DEPT EDUCATION,188.72,Student Loan,Online
+9/16/2024,Zelle payment to YI ZENG,1755.1,Rent,Not Applicable
+9/19/2024,DEPT EDUCATION,377.44,Student Loan,Online
+11/13/2024,DEPT EDUCATION,188.72,Student Loan,Online
+10/4/2024,security deposit for rent,700,Rent,Not Applicable
+10/4/2024,rent for october,700,Rent,Not Applicable
+11/1/2024,rent for november,700,Rent,Not Applicable
+12/1/2024,rent for december,700,Rent,Not Applicable

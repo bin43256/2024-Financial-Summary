@@ -1,5 +1,5 @@
-Date,Description,Category,Amount
-1/8/2024,Oasis,Grocery,5.06
-1/12/2024,Costco Gas,Gas,20.34
-1/31/2024,Kroger Fuel,Gas,37.22
-2/1/2024,FedEx,School,2.2
+Date,Description,Category,Amount,Payment Modality
+1/8/2024,Oasis,Grocery,5.06,At the store
+1/12/2024,Costco Gas,Gas,20.34,At the store
+1/31/2024,Kroger Fuel,Gas,37.22,At the store
+2/1/2024,FedEx,School,2.2,At the store

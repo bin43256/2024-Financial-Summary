@@ -1,0 +1,6 @@
+bank_id,bank,banking_type,credit_limit,date_start
+1,capital one,credit account,10000,11/24/2022
+2,bank of america,checking account,Not Applicable,10/30/2019
+3,herbert,debit account,Not Applicable,Unknown
+4,pnc,credit account,1000,Unknown
+5,citi,credit account,6000,Unknown

@@ -21,7 +21,7 @@ conn = psycopg2.connect(
 print("Connected to the database!")
 
 def load_to_db(cleaned_csv, target_table):
-    print("Loading data into the database..." + 'target_table:' + target_table)
+    print("Loading data into the target_table:" + target_table)
     cur = conn.cursor()
     with open(cleaned_csv, 'r') as f:
         next(f) 
@@ -34,15 +34,14 @@ def load_to_db(cleaned_csv, target_table):
 file_path = '/app/data/'
 if os.path.isdir(file_path):
     print(f"{file_path} exists and is a directory.")
-    file_list = os.listdir(file_path)
-    print(f"Files in {file_path}: {file_list}")
-
-    extractAndTransformData(file_list)
+    print(os.listdir(file_path))
+    extractAndTransformData(file_path)
 else:
     print(f"{file_path} does not exist or is not a directory.")
 
-load_to_db('./processed_data/categories.csv','categories')
-load_to_db('./processed_data/banks.csv','banks')
+load_to_db('./data/bank.csv','bank')
+load_to_db('./data/dates.csv','dates')
+load_to_db('./data/payment_method.csv','payment_method')
 load_to_db('./processed_data/transactions.csv','transactions')
 
 conn.close()

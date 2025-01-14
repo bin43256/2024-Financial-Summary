@@ -2,12 +2,15 @@ import os
 import pandas as pd
 import numpy as np
 def extractAndTransformData(file_path):
+    files = os.listdir(file_path)
     dfs = {}
     print("Extracting and transforming data...")
-    for csv in file_path:# loop through all the banks
+    for csv in files:# loop through all the banks
+        print(f'Parse file {csv}')
         file_name = os.path.splitext(csv)[0]
         print(file_name)
-        dfs[file_name] = pd.read_csv('/app/data/' + csv)
+        dfs[file_name] = pd.read_csv('./data/' + csv)
+    print(dfs)
     # create identifier column for each bank 
     dfs['capital_one']['bank'] = 'capital one'
     dfs['BoA']['bank'] = 'bank of america'
@@ -15,40 +18,22 @@ def extractAndTransformData(file_path):
     dfs['pnc']['bank'] = 'pnc'
     dfs['citi_bank']['bank'] = 'citi'
 
-    # create tables: transactions, categories, and banks
-    banks = {'bank_id':[1,2,3,4,5],'bank':['capital one','bank of america','herbert','pnc','citi']}
-    transactions = pd.DataFrame()
-    categories = pd.DataFrame()
-    banks = pd.DataFrame(banks)
+    transaction = pd.concat([dfs['capital_one'],dfs['BoA'],dfs['herbert'],dfs['pnc'],dfs['citi_bank']])
+    transaction = transaction.merge(dfs['dates'],how='left',left_on='Date',right_on='full_date')
+    transaction = transaction.merge(dfs['bank'],how='left',on='bank')
 
-    for bank in dfs:
-        ctg = dfs[bank]['Category'].unique() # get unique categories from each bank and add to categories table
-        categories = pd.concat([categories, pd.DataFrame(ctg)])
-        if bank != 'BoA': # Create identifier column for banking type
-            dfs[bank]['banking_type'] = 'credit card'
-        else:
-            dfs[bank]['banking_type'] = 'debit card'
-        transactions = pd.concat([transactions, dfs[bank]])
-
-    #transform and normalize table
-    categories.columns = ['category']
-    categories.drop_duplicates(keep='first',inplace=True)
-    categories['category_id'] = range(1, len(categories) + 1)
-    categories = categories[['category_id','category']]
-
-    transactions = transactions.merge(categories,how='left',left_on='Category',right_on='category').drop(columns='category')
-    transactions = transactions.merge(banks, how='left', left_on='bank', right_on='bank')
-    transactions.drop(columns=['bank','Category'],inplace=True)
-    transactions['Date'] = pd.to_datetime(transactions['Date'])
-    transactions['transaction_id'] = np.random.randint(1, 1000000, size=len(transactions))
-    transactions.sort_values(by='Date',inplace=True)
-    transactions.columns = transactions.columns.str.lower()
-    transactions = transactions[
-            ['transaction_id','date','description','amount','category_id','bank_id','banking_type']] 
-
-    transactions.to_csv('./processed_data/transactions.csv',index= False)  #export to csv
-    categories.to_csv('./processed_data/categories.csv',index= False)
-    banks.to_csv('./processed_data/banks.csv',index= False)
-
+    transaction['payment_method'] = np.where(
+    (transaction['bank'] == 'BoA') | (transaction['bank'] == 'herbert'),
+    'debit card',
+    'credit card'
+    )
+    transaction = transaction.merge(dfs['payment_method'],how='left', on='payment_method')
+    transaction['id'] = range(1, len(transaction) + 1)
+    transaction = transaction[
+    ['id','date_id','bank_id','payment_method_id','Description','Category','Amount','Payment Modality']
+    ] 
+    transaction.sort_values(by='date_id',inplace=True)
+    transaction.columns = transaction.columns.str.lower()
+    transaction.to_csv('./processed_data/transactions.csv',index= False)  #export to csv
     return print('sucessfully extracted and transformed data')
 
