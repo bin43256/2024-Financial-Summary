@@ -22,16 +22,14 @@ Processes transactions data using Python scripts, stores the data in a PostgreSQ
    - Payment Method  
    - Date  
 
-### Dimensional Model
-
-The final dimensional model consists of:  
+### Dimensional Model 
 - **Fact Table**: Transactions  
 - **Dimension Tables**:  
   - Bank  
   - Payment Method  
   - Date  
-
-*(Attach an image of the dimensional model)*  
+![Dimensional Model](assets/dimensional_model.png)
+*(image of the dimensional model)*  
 
 ### High-Level Process
 
@@ -45,11 +43,8 @@ The final dimensional model consists of:
 3. **Data Loading**:  
    - The processed `transaction.csv` file and dimension tables are loaded into the PostgreSQL database using the `load.py` script.  
 
-All processes communicate with the PostgreSQL server hosted within Docker.
-
-*(Attach an image of the high-level process)*  
-
-### Transaction Table View
+![Architecture](assets/high_level_process.png)
+*(image of the high-level process)*  
 
 ## Dashboard (Coming Soon)
 
