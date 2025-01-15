@@ -6,7 +6,7 @@ This project is a endeavear to encapsulate a story of my total spending and any 
 ## Content
 
 ### Objective and Overview
-Processes transactions data using Python scripts, stores the data in a PostgreSQL database while all the processes are running under docker's containers in a isolated environment
+Download transactions data from bank accounts and processes them using Python scripts, stores the clean data in a PostgreSQL database while all the processes are running on docker's containers in a isolated environment
 
 ### Data Sources
 
@@ -18,35 +18,45 @@ Processes transactions data using Python scripts, stores the data in a PostgreSQ
    - Herbert  
 
 2. **Constructed Data** (Tables):  
-   - Bank  
-   - Payment Method  
-   - Date  
+   - bank  
+   - payment_method  
+   - dates
 
 ### Dimensional Model 
-- **Fact Table**: Transactions  
+- **Fact Table**: transactions  
 - **Dimension Tables**:  
-  - Bank  
-  - Payment Method  
-  - Date  
-![Dimensional Model](Assets/dimensional_model.png)
+  - bank  
+  - payment method  
+  - dates
+    
+![Dimensional Model](assets/dimensional_model.png)
+
 *(image of the dimensional model)*  
 
 ### High-Level Process
+### Sequential Flow of Actions
+1. **Database Setup** (Container #1)  
+   - Docker starts a PostgreSQL server.  
+   - Creates the database and sets up schemas for the required tables.
 
-#### Sequential Flow of Actions:
-1. **Database Setup**:  
-   - Docker starts a PostgreSQL server and creates the database with schemas for the required tables.  
+2. **Data Extraction and Transformation** (Container #2)  
+   - Docker runs the `extract_and_transform.py` script.  
+   - The script processes the source data and generates `transaction.csv`.
 
-2. **Data Extraction and Transformation**:  
-   - Docker runs the `extract_and_transform.py` script, which processes source data and outputs `transaction.csv`.  
+3. **Data Loading** (Container #2)  
+   - The `load.py` script loads `transaction.csv` and dimension tables into the PostgreSQL database. 
 
-3. **Data Loading**:  
-   - The processed `transaction.csv` file and dimension tables are loaded into the PostgreSQL database using the `load.py` script.  
-
-![Architecture](Assets/architecture.png)
+![Architecture](assets/architecture.png)
 *(image of the high-level process)*  
+## Final Product
+### Dashboard/BI Application/Consumption/PowerBI
+This is the analytical portion where dashboard is made, it gives a great summary on a glance to my overall financial performance
+![Architecture](assets/Dashboard.png)
 
-## Dashboard (Coming Soon)
+## Drill Down Questions + SQL Queries 
+On top of the dashboard that I created, I also include a [list of queries](db-init/queries.sql) that aim to answer some customized questions in extension to my own curiosity.
+
+
 
 
 
